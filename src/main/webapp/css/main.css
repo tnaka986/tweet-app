@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+/* fontawesome */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* body */
+body {
+	font: 400 87.5%/1.5em 'Open Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+	color: #FFFFFF;
+	padding-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	background-color: #33CCCC;
+	height: 60px;
+	color: #FFFFFF;
+}
+
+.header-title {
+	padding-top: 15px;
+	padding-left: 20px;
+	float: left;
+	font-size: 20px;
+}
+
+.header-middle {
+	padding-top: 15px;
+	padding-left: 50px;
+	float: left;
+}
+
+.header-right {
+	float: right;
+	padding-right: 10px;
+	padding-top: 0px;
+	font-size: 12px;
+}
+
+.main {
+	padding: 30px 80px;
+}
+
+.msg-form {
+	padding: 40px 80px;
+	border-bottom: 5px solid #dee7ec;
+}
+
+.msg-area {
+	padding-top: 10px;
+}
+
+.input, textarea {
+	width: 400px;
+	height: 100px;
+	border: 1px solid #dee7ec;
+}
+
+.post-button {
+	background-color: #3399FF;
+	color: #FFFFFF;
+	border: 1px solid #3399FF;
+	margin-left: 340px;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+.find-button {
+	background-color: #33CCCC;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+.msg {
+	border-bottom: 2px solid #dee7ec;
+	padding-bottom: 10px;
+}
+
+.error-msg {
+	color: #FF0000;
+}
+
+
+
+
+
+
+
