@@ -67,31 +67,6 @@ public class UserDao {
 			
 		}
 		
-	}
-	
-//	public boolean findUsera(User user) {
-//		
-//		Connection con = null;
-//		PreparedStatement stmt = null;
-//		
-//		try {
-//			con = DBManager.getCloudSQLConnection();
-//			stmt = con.prepareStatement("SELECT * FROM USER WHERE USER_NAME = ?");
-//			stmt.setString(1, user.getUserName());
-//			
-//			ResultSet rs = stmt.executeQuery();
-//			if(rs.next()) {
-//				return true;
-//			}
-//			
-//			return false;
-//			
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//			return false;
-//		}
-//		
-//	}
-	
+	}	
 	
 }
