@@ -11,12 +11,12 @@ public class DBManager {
 	public static Connection getCloudSQLConnection() {
 		
 		// Cloud SQL
-		String url = "jdbc:google:rdbms://Instance-Name/DB-Name";
+		String url = "jdbc:google:rdbms://lateral-apex-268306:us-central1:tweet-app/tweetapp";
 		// ローカル用
-//		String url = "jdbc:mysql://localhost:3306/DB-Name";
+//		String url = "jdbc:mysql://localhost:3306/tweetapp";
 		
-		final String DB_USER = "UserName";
-		final String DB_PASS = "Password";
+		final String DB_USER = "mysql";
+		final String DB_PASS = "mysql";
 		
 		try {
 			DriverManager.deregisterDriver(new AppEngineDriver());
